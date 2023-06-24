@@ -1,4 +1,14 @@
 # datainmotion_SqlCaseStudy
+#SQL Case Study - 1 of Data In Motion, LLC.
+#This challenge involves the sales analysis of Tiny Shop over time. The database consists of four different tables that tell the overview of products-customers-#orders. I have used MySQL server.
+
+The functions used were:
+•Basic aggregations
+•CASE WHEN statements
+•Window Functions
+•Joins
+•Date time functions
+•CTEs
 
 -- 1) Which product has the highest price? Only return a single row.
 select * from products where price =(select max(price) from products);
